@@ -1,0 +1,144 @@
+/* Color Palette
+# - color 1
+# - color 2
+# - color 3
+# - color 4
+*/
+
+/* Box model fix (apply globally) */
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+/* Global styles 
+------------------------------------*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif; /* primary body font */
+    background: #f5f5f5; /* change or comment out once palette selected */
+    color: #333;
+}
+
+/* default heading fonts and sizes */
+h1, h2 {
+    font-family: 'Noto Serif Thai', serif;
+}
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+/* tighten header heading spacing */
+header h1, header h2 {
+    margin: 0;
+}
+
+
+/* Header & Footer 
+------------------------------------*/
+header, footer {
+    background: #ddd; /* change to one of your palette colors */
+    text-align: center;
+    padding: 20px 10px;
+}
+
+/* Navigation Menu */
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    z-index: 100;
+}
+
+.nav-container {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-container a {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.nav-container a:hover {
+    background: #f0f0f0;
+}
+
+/* profile image uses column sizing; keep it responsive and round */
+.profile-img {
+    border-radius: 50%;
+    max-width: 100%;
+    display: block;
+}
+
+/* Work Experience
+------------------------------------*/
+section {
+    background: #fff; /* light background for sections */
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+#work-experience {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('../images/dwight_resume.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* content wrapper: center and constrain page content */
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+/* Contacts in footer */
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+}
+
+/* Columns used in header and work items */
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+.column-wide {
+    width: 67%;
+    float: left;
+    min-height: 225px;
+}
+
+.job-item {
+    margin-bottom: 20px;
+}
+
+/* Education
+------------------------------------*/
+
+
+/* Work Experience
+------------------------------------*/
+
+
+
+/* Education
+------------------------------------*/
